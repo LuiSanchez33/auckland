@@ -1,0 +1,239 @@
+.container{    
+  float: left;
+  width: 90%;
+  margin-right: 10px;
+}
+
+.nav-item{
+  
+  
+}
+
+.bg1{
+  display: block;
+}
+
+.navbar-text{
+  display: block;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.navbar-text li{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.about{
+  color: #0f8cff !important;
+}
+
+.linkContact{
+color: #759596;
+}
+
+.navbar-text .MyAt{
+  color: #759596 !important;
+  font-size: 15px !important;
+}
+
+.LogIn{
+  color: #0f8cff !important;
+}
+
+.menu1{
+  background-color: #303e51;
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
+
+.menu1 li{
+  list-style: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.menu1-item{
+  color: #fff;
+}
+
+.parrafo1{
+  font-family: 'Avenir Next W04', Helvetica Neue, Arial, sans-serif;
+  font-size: 20px;
+  color: gray !important;
+  text-align: center !important;
+}
+
+.parrafo1 h2{
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.parrafo1 li{
+  display: inline-block;
+  list-style: none;
+}
+
+
+.menu {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #8795a1;
+}
+
+.menu .line {
+  position: absolute;
+  background-color: #39444f;
+}
+
+.menu .linkSecondary {
+  font-size: 13px;
+  color: #8795a1;
+}
+
+.menu .linkPrimary {
+  font-size: 14px;
+  color: #159ad3;
+}
+
+a.linkSecondary:hover{
+  color:#159ad3;
+}
+
+
+a.linkPrimary:hover{
+  color:green;
+}
+
+.menu .logLink {
+  float: right;
+}
+
+.menu .lineVertical {
+  left: 0;
+  width: 1px;
+  top: 6px;
+  bottom: 6px;
+}
+
+.hypers{
+  color:#283b57;
+  display: inline-block;
+  font-size: 40px;
+  text-align: center; 
+  text-decoration: underline;
+  
+}
+
+a.hypers:hover{
+  color:green;
+}
+
+footer {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  background-color: #17232f;
+  color: #fff;
+}
+
+
+
+.column-button {
+  display: block;
+  margin: 0;
+  padding: 15px 0px !important;
+  width: 100%;
+  color: #ffffff !important;
+  font-family: Avenir, Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border: 1px solid #fff !important;
+  border-radius: 25px !important;
+  background: transparent !important;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.menu .lineHorizontal {
+  left: 7px;
+  right: 7px;
+  height: 1px;
+  top: 50%;
+}
+
+.menu .menuDesktop {
+  position: relative;
+  height: 100%;
+}
+
+.menu .navRow {
+  width: 100%;
+  height: auto;
+  min-height: 50%;
+  position: relative;
+}
+
+.menu .navRow .padding{
+  padding: 10px 10px 10px 13px;
+}
+
+.primera{
+  background-color:#17232f;
+}
+
+@media only screen and (min-width: 768px){
+  .menu {
+    width: 20%;
+    max-width: 223px;
+  }
+
+  .desktopView {
+    display: block;
+  }
+
+  .menu .logLink a, .menu .logLink span {
+    display: inline-block;
+  }
+  
+ footer{
+  background-color: #17232f;
+  color: #fff;
+  display: block;
+}
+
+footer li{
+  list-style: none;
+  padding: 2px;
+  margin-top: 10px;
+  
+}
+
+.footer-img-left{
+  margin-top: 15px;
+  position: relative;
+}
+
+.footer-item li{
+ display: inline-block;
+}
+
+.footer-item a{
+ background-color: transparent;
+ color: #fff;
+}
+
+.footer-item .contact{
+ color: #007bcc;
+}
+}
