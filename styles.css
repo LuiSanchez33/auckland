@@ -1,47 +1,77 @@
-.container{    
-  float: left;
-  width: 90%;
-  margin-right: 10px;
+#container {
+  overflow: hidden;
 }
 
-.nav-item{
-  
-  
+#firstLink {
+  background-color: #fd0;
+  width: 100%;
+  color: #000;
+  text-decoration: underline;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
 }
 
-.bg1{
-  display: block;
+.skip_nav {
+  position: absolute;
+  left: -10000px;
 }
 
-.navbar-text{
-  display: block;
-  text-align: center;
-  padding: 10px 10px 10px 10px;
-  
+.my_at_menu .menuMobile {
+  height: 100%;
 }
 
-.navbar-text li{
-  list-style: none;
-  display: inline-block;
+header {
   position: relative;
 }
 
-.about{
-  color: #0f8cff !important;
+header.AT_Main {
+  background-color: #17232f;
+  padding: 7px 0 5px 8px;
+  display: block;
 }
 
-.linkContact{
-color: #759596;
+.desktopView {
+  display: none;
+  color: #fff;
 }
 
-.navbar-text .MyAt{
-  color: #759596 !important;
-  font-size: 15px !important;
+.mobile_menu {
+  display: inline-block;
+  color: #fff;
 }
 
-.LogIn{
-  color: #0f8cff !important;
+.column {
+  height: 100%;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
 }
+
+.MenuMobile{
+    display: block;
+}
+
+.menu .navRow {
+  width: 100%;
+  height: auto;
+  min-height: 50%;
+  position: relative;
+}
+
+.menu .menuMobile .column {
+  height: 100%;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+}
+
+
+
+.menu .menuMobile .navRow .padding {
+  padding: 13px 0 10px 13px;
+}
+
 
 .menu1{
   background-color: #303e51;
@@ -52,188 +82,257 @@ color: #759596;
 
 .menu1 li{
   list-style: none;
-  display: inline-block;
+  display: block;
   margin-top: 10px;
   padding: 10px;
 }
 
 .menu1-item{
   color: #fff;
+  font-size: 14px;
 }
 
 .parrafo1{
   font-family: 'Avenir Next W04', Helvetica Neue, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   color: gray !important;
   text-align: center !important;
 }
 
 .parrafo1 h2{
   color: gray;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: bold;
   
 }
 
 .parrafo1 li{
-  display: inline-block;
+  display: block;
   list-style: none;
 }
 
-
-.menu {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  color: #8795a1;
+footer{
+  background: #17232f;
 }
 
-.menu .line {
-  position: absolute;
-  background-color: #39444f;
+footer div .item{
+  text-align: center
 }
 
-.menu .linkSecondary {
-  font-size: 13px;
-  color: #8795a1;
+.mobile-footer .itemMobile{
+  text-align: center;
+  display: block;
 }
 
-.menu .linkPrimary {
-  font-size: 14px;
-  color: #159ad3;
-}
-
-a.linkSecondary:hover{
-  color:#159ad3;
-}
-
-
-a.linkPrimary:hover{
-  color:green;
-}
-
-.menu .logLink {
-  float: right;
-}
-
-.menu .lineVertical {
-  left: 0;
-  width: 1px;
-  top: 6px;
-  bottom: 6px;
-}
-
-.hypers{
-  color:#283b57;
-  display: inline-block;
-  font-size: 40px;
-  text-align: center; 
-  text-decoration: underline;
+.itemMobile a{
+  color: #fff;
   
 }
 
-a.hypers:hover{
-  color:green;
+.itemMobile .secondaryLink{
+  
+  color: #085d96;
+  
 }
 
-footer {
-  display: block;
-  overflow: hidden;
-  text-align: center;
-  background-color: #17232f;
+.mobile-footer .itemMobile p{
   color: #fff;
 }
 
 
 
-.column-button {
-  display: block;
-  margin: 0;
-  padding: 15px 0px !important;
-  width: 100%;
-  color: #ffffff !important;
-  font-family: Avenir, Arial, Helvetica, sans-serif !important;
-  font-size: 16px !important;
-  font-weight: 800 !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  border: 1px solid #fff !important;
-  border-radius: 25px !important;
-  background: transparent !important;
-  cursor: pointer;
-  cursor: hand;
+@media only screen and (min-width:0px){
+
+  .mobile_menu {
+    display: inline-block;
+    color: #fff;
+  }
+  
+  .nav-footer{
+    display: none;
+  }
+
+  .mobile-footer{
+    display: block;
+  }
+
+  .material-icons{
+    display: none;
+  }
+
+  .Menu1Desktop{
+    display: none;
+  }
+
+  .Menu1Mobile{
+   display: block;
+  }
 }
 
-.menu .lineHorizontal {
-  left: 7px;
-  right: 7px;
-  height: 1px;
-  top: 50%;
-}
+@media only screen and (min-width:769px){
 
-.menu .menuDesktop {
-  position: relative;
-  height: 100%;
-}
-
-.menu .navRow {
-  width: 100%;
-  height: auto;
-  min-height: 50%;
-  position: relative;
-}
-
-.menu .navRow .padding{
-  padding: 10px 10px 10px 13px;
-}
-
-.primera{
-  background-color:#17232f;
-}
-
-@media only screen and (min-width: 768px){
   .menu {
-    width: 20%;
-    max-width: 223px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #8795a1;
+  }
+
+  .menu .nav-item{
+    padding: 10px 10px 10px 13px;
+    margin-right: 20px;
+  }
+  
+  .menu .navRow .padding{
+    padding: 10px 10px 10px 13px;
+  }
+
+  .mobileView {
+    display: none;
   }
 
   .desktopView {
-    display: block;
+    display: inline-block;
   }
 
   .menu .logLink a, .menu .logLink span {
     display: inline-block;
   }
+
+  .menu .line {
+    position: absolute;
+    background-color: #39444f;
+  }
+
+  .menu1-item{
+    font-size: 18px;
+    position: relative;
+    width: 80%;
+  }
+
+  .menu .lineHorizontal {
+    left: 7px;
+    right: 7px;
+    height: 1px;
+    top: 50%;
+  }
+
+  .menu .lineVertical {
+    left: 0;
+    width: 1px;
+    top: 6px;
+    bottom: 6px;
+  }
+
+  .menu .logLink {
+    
+    float: right;
+  }
+
+  .menu .logLink a, .menu .logLink span {
+    display: inline-block;
+  }
+
+  .menu .menuDesktop {
+    position: relative;
+    height: 100%;
+  }
+
+  .menu .linkSecondary {
+    font-size: 13px;
+    color: #8795a1;
+  }
   
- footer{
-  background-color: #17232f;
+  .menu .linkPrimary {
+    font-size: 14px;
+    color: #159ad3;
+  }
+  
+  a.linkSecondary:hover{
+    color:#159ad3;
+  }
+  
+  a.linkPrimary:hover{
+    color:green;
+  }
+
+  .menu1 li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .parrafo1 li{
+    display: inline-block;
+    list-style: none;
+    border: #000;
+    border-style: solid 1px;
+  }
+
+  .about{
+    color: #0f8cff !important;
+  }
+  
+  .nav-footer{
+    display: inline-block;
+  }
+
+  .mobile-footer{
+    display: none;
+  }
+
+  .material-icons{
+    display: inline-block;
+  }
+
+  .parrafo1{
+    font-size: 20px;
+  }
+
+  .parrafo1 h2{
+    font-size: 20px;
+  }
+
+  footer{
+    
+    color: #fff;
+    display: block;
+  }
+
+  footer li{
+    list-style: none;
+    padding: 2px;
+    
+    
+  }
+
+  .footer-img-left{
+    margin-top: 15px;
+    position: relative;
+  }
+
+  .footer-item li{
+  display: inline-block;
+  text-align: center;
+  }
+
+  .footer-item a{
+  background-color: transparent;
   color: #fff;
-  display: block;
+  }
+
+  .footer-item .contact{
+  color: #007bcc;
+    }
 }
 
-footer li{
-  list-style: none;
-  padding: 2px;
-  margin-top: 10px;
-  
-}
 
-.footer-img-left{
-  margin-top: 15px;
-  position: relative;
-}
+@media only screen and (min-width: 1024px) and (max-width: 1124px) {
 
-.footer-item li{
- display: inline-block;
-}
+  .menu .logLink{
+    display: none;
+  }
 
-.footer-item a{
- background-color: transparent;
- color: #fff;
-}
-
-.footer-item .contact{
- color: #007bcc;
-}
 }
